@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516f2a2bc5a246748b9db888ece7f43e, type: 3}
+  m_Name: Turret Slow
+  m_EditorClassIdentifier: Assembly-CSharp::UtilitySO
+  utilityEffect: {fileID: 8241234691782020530, guid: 1341c9859e43b5a46b2402e4aaedf51a, type: 3}
+  modifier: 0.2
+  duration: 5
+  range: 30
+  rateOfFire: 10
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  dischargePrefab: {fileID: 0}
+  fireSFX: {fileID: 0}
+  rofUpgradeAmount: 0.1

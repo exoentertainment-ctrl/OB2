@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc08bcf45051fc4a84da7ce07f1b955, type: 3}
+  m_Name: Heavy Cannon SO
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileSO
+  projectilePrefab: {fileID: 100000, guid: cd128645f6f36ec48b380cebd8184c10, type: 3}
+  impactPrefab: {fileID: 100010, guid: 46be106138abdd94ca9b09e4c7304815, type: 3}
+  impactSound: {fileID: 11400000, guid: 524f2442810690c4f8ff250b04912f7b, type: 2}
+  maxHealth: 0
+  moveSpeed: 200
+  lifetime: 6
+  damage: 3
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  damageUpgradeAmount: 1.05

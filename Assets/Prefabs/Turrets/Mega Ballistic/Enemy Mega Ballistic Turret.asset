@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4b23c1ac0331c48abb9927f157f4de, type: 3}
+  m_Name: Enemy Mega Ballistic Turret
+  m_EditorClassIdentifier: Assembly-CSharp::TurretSO
+  projectileSO: {fileID: 11400000, guid: ec5e9dbfb4faf704bb42edf2461e0ff3, type: 2}
+  dischargePrefab: {fileID: 100002, guid: 775cebecd9e70784e9e771070ea7ce18, type: 3}
+  fireSFX: {fileID: 11400000, guid: 4eb60a7b0b170cc4a83e45a964b18a25, type: 2}
+  engageRange: 20
+  minEngageRange: 5
+  fireRate: 0.5
+  barrelFireDelay: 0.1
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 67648
+  targetPredictionDelay: 1
+  TrackingType: 0
+  HeadingTrackingSpeed: 50
+  ElevationTrackingSpeed: 50
+  HeadingLimit: {x: -180, y: 180}
+  ElevationLimit: {x: -90, y: 20}
+  rofUpgradeAmount: 0.1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc08bcf45051fc4a84da7ce07f1b955, type: 3}
+  m_Name: Heavy Railgun Projectile
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileSO
+  projectilePrefab: {fileID: 194546, guid: 0598859c0f00c91418e888c2aa30f16b, type: 3}
+  impactPrefab: {fileID: 140812, guid: 2308418e5f4304e45927bc9177de75ae, type: 3}
+  impactSound: {fileID: 0}
+  maxHealth: 0
+  moveSpeed: 200
+  lifetime: 3
+  damage: 5
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  damageUpgradeAmount: 1.05

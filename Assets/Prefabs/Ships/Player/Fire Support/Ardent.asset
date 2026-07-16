@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c1241e5b22dec479f6fb723ddce09b, type: 3}
+  m_Name: Ardent
+  m_EditorClassIdentifier: Assembly-CSharp::BaseShipSO
+  maxHealth: 50
+  maxShield: 100
+  lowShieldPercentage: 0.1
+  upgradeAmount: 0.1
+  explosionPrefab: {fileID: 1002090002221796, guid: 4bf4aac8b7619e94d93435156396e1f2, type: 3}
+  numExplosions: 3
+  explosionFrequency: 0.75
+  shieldRechargeRate: 0.01
+  moveSpeed: 1.2
+  turnSpeed: 0.5
+  lookAheadDistance: 10
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 4096
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  smallExplosion: {fileID: 11400000, guid: 9c8379397b7d0cd4cb65b9f7153d5be2, type: 2}
+  finalExplosion: {fileID: 11400000, guid: fad03b1f9ebd6c542a725b0d3daa1403, type: 2}
+  movementVoices:
+  - {fileID: 11400000, guid: 4ebe95f466795284bbc2ed5b2c86e0ad, type: 2}
+  - {fileID: 11400000, guid: 57b2ff65bf2485241870f5b577c5f6e8, type: 2}
+  - {fileID: 11400000, guid: 7c0fddf22d76077479efcedacd86ca76, type: 2}
+  shieldDownVoices:
+  - {fileID: 11400000, guid: 7f15d40cd48e9994d9aca271002ba689, type: 2}
+  - {fileID: 11400000, guid: cd8159379fee37f438438da3e4d29465, type: 2}
+  - {fileID: 11400000, guid: 9ad879c0f2c63ae4b8291681b024f6bc, type: 2}
+  lowHullVoices: []
+  selectedVoices:
+  - {fileID: 11400000, guid: c08c7adf954a3314ea2bc41412fe7c25, type: 2}
+  - {fileID: 11400000, guid: e9d837481b3b6184da9a23bfd33f74f4, type: 2}
+  - {fileID: 11400000, guid: 94ba24c1216c3914cab73a3d280fd016, type: 2}
+  targetSetVoices:
+  - {fileID: 11400000, guid: dfd37d633bbc1504092e8a509c59334b, type: 2}
+  - {fileID: 11400000, guid: 28e48ddd1caf4c34caa9cb61d13ed270, type: 2}
+  - {fileID: 11400000, guid: ea979f5b5d90a8848b78d383eb701c53, type: 2}
+  finalExplosionPrefab: {fileID: 1474621009080350, guid: 65885aa7664fe9e4599f17b4fc007029, type: 3}
+  debrisPrefab:
+  - {fileID: 1751908302768388, guid: abd597ae29f8f25449d1cb7a0035b700, type: 3}
+  - {fileID: 1716888869384812, guid: 62efc24454c516e4eb91947a3223ffa4, type: 3}
+  - {fileID: 1531962446101674, guid: dc79b625963101b43b6271533c3ca425, type: 3}
+  - {fileID: 1115591715268694, guid: e49a4ef7c1cc1104da427f6686ba0c2c, type: 3}
+  - {fileID: 1374473877756026, guid: 80e999b504008a34d9b96a11d3419e4d, type: 3}
+  profileImages:
+  - {fileID: 21300000, guid: 99f784e2375d56248976bc98dcd66482, type: 3}
+  - {fileID: 21300000, guid: dbc7f4e8dda99024fabee133a77bb943, type: 3}
+  - {fileID: 21300000, guid: f4a6ebaa2b5ac9b4ca726f2829fd1359, type: 3}
+  pointValue: 0

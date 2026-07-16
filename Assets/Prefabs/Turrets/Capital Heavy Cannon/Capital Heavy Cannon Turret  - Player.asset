@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4b23c1ac0331c48abb9927f157f4de, type: 3}
+  m_Name: Capital Heavy Cannon Turret  - Player
+  m_EditorClassIdentifier: Assembly-CSharp::TurretSO
+  projectileSO: {fileID: 11400000, guid: 7928e943edf0ce145a7ca29003aba490, type: 2}
+  dischargePrefab: {fileID: 100004, guid: 7b2777d3db4806146adc0a5b134b48b5, type: 3}
+  fireSFX: {fileID: 11400000, guid: 5279d2e8ab92d3945bc24de1c8f40b00, type: 2}
+  engageRange: 150
+  minEngageRange: 15
+  fireRate: 1.5
+  barrelFireDelay: 0.25
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  targetPredictionDelay: 1
+  TrackingType: 0
+  HeadingTrackingSpeed: 50
+  ElevationTrackingSpeed: 50
+  HeadingLimit: {x: -180, y: 180}
+  ElevationLimit: {x: -80, y: 20}
+  rofUpgradeAmount: 0

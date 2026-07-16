@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc08bcf45051fc4a84da7ce07f1b955, type: 3}
+  m_Name: Enemy Capital Ballistic Projectile
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileSO
+  projectilePrefab: {fileID: 100000, guid: 16978f1d4d6910a4fb9cece054f86b63, type: 3}
+  impactPrefab: {fileID: 100000, guid: 9d334eb3c77023b4abb5f00b6ad7a365, type: 3}
+  impactSound: {fileID: 11400000, guid: fd1ff0d1027bf434bb1088a98ee95877, type: 2}
+  maxHealth: 0
+  moveSpeed: 100
+  lifetime: 2
+  damage: 1
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  damageUpgradeAmount: 0

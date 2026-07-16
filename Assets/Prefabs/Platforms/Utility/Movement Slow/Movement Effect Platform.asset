@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7f818091535bf42a5de44f76b2e9b0, type: 3}
+  m_Name: Movement Effect Platform
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformScriptableObject
+  maxHealth: 30
+  maxShield: 30
+  lowShieldPercentage: 0.1
+  upgradeAmount: 0
+  explosionPrefab: {fileID: 1002090002221796, guid: 4bf4aac8b7619e94d93435156396e1f2, type: 3}
+  numExplosions: 2
+  explosionFrequency: 0.75
+  resourceCost: 150
+  platformPrefab: {fileID: 2594718073525741806, guid: 4c989891a44d1c843b28840a65f38f60, type: 3}
+  platformDescription: This basic utility platform randomly selects a target within
+    range and slows its movement speed by at least 25% and 5 seconds. The effect
+    can stack.

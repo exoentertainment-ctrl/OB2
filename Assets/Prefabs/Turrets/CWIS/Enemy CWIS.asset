@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4b23c1ac0331c48abb9927f157f4de, type: 3}
+  m_Name: Enemy CWIS
+  m_EditorClassIdentifier: Assembly-CSharp::TurretSO
+  projectileSO: {fileID: 11400000, guid: 3a61d7ebc04264845a5b2e6d2ca46ac8, type: 2}
+  dischargePrefab: {fileID: 0}
+  fireSFX: {fileID: 11400000, guid: 4eb60a7b0b170cc4a83e45a964b18a25, type: 2}
+  engageRange: 15
+  minEngageRange: 1
+  fireRate: 0.1
+  barrelFireDelay: 0
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 8192
+  targetPredictionDelay: 0
+  TrackingType: 1
+  HeadingTrackingSpeed: 300
+  ElevationTrackingSpeed: 300
+  HeadingLimit: {x: -180, y: 180}
+  ElevationLimit: {x: -80, y: 10}
+  rofUpgradeAmount: 0
