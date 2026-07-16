@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 781512814733084536}
   - component: {fileID: 8767173224528538739}
   - component: {fileID: 3290340631826468501}
-  - component: {fileID: 362869957801770475}
+  - component: {fileID: 4939135404676627073}
   m_Layer: 11
   m_Name: Sphere
   m_TagString: Untagged
@@ -155,7 +155,7 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &362869957801770475
+--- !u!114 &4939135404676627073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,14 +164,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2391033903439950476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a59b47c54eb04e741bafda8031cfb8cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a1ab8b8148ea09488724d9c6bcbe195, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShieldHealth
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformShield
   mainShield: {fileID: 3944184754031249094}
   lowShield: {fileID: 7520567544648258511}
-  shipSO: {fileID: 11400000, guid: 0c569debd76b2f347acf980873253924, type: 2}
-  numberPrefab: {fileID: 0}
-  shieldDownPrefab: {fileID: 0}
+  platformSO: {fileID: 11400000, guid: d45fb15c783cf2e43a60d48c5e502140, type: 2}
 --- !u!1 &2809391786657899239
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,12 +210,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6544926265969884110}
-  - component: {fileID: -1549026052505753057}
   - component: {fileID: 1532040025753906244}
   - component: {fileID: -8180879082737163077}
   - component: {fileID: 6222291516942351272}
   m_Layer: 11
-  m_Name: Missile Platform Template
+  m_Name: VLS Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,25 +241,6 @@ Transform:
   - {fileID: 3309925967770879156}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-1549026052505753057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3088259612838920504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db2d1c5674f79546bed2d3596ba3856, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShipHealth
-  shipSO: {fileID: 11400000, guid: 0c569debd76b2f347acf980873253924, type: 2}
-  onShipDeath:
-    m_PersistentCalls:
-      m_Calls: []
-  deathFeedbacks: {fileID: -8180879082737163077}
-  numberPrefab: {fileID: 0}
-  focusCameraOnDeath: 0
 --- !u!114 &1532040025753906244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,11 +565,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49af4668db38a7c4baae46cf1c8d97d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformHealth
-  platformSO: {fileID: 0}
+  platformSO: {fileID: 11400000, guid: d45fb15c783cf2e43a60d48c5e502140, type: 2}
   onDeath:
     m_PersistentCalls:
       m_Calls: []
-  deathFeedbacks: {fileID: 0}
+  deathFeedbacks: {fileID: -8180879082737163077}
 --- !u!1 &3125658302855964477
 GameObject:
   m_ObjectHideFlags: 0
