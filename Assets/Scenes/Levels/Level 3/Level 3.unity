@@ -2937,7 +2937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &189570518
 Transform:
   m_ObjectHideFlags: 0
@@ -2976,6 +2976,14 @@ PlayableDirector:
   - key: {fileID: -4478330902518913618, guid: 1abb5f7972ec63b4483fb2c57827972f, type: 2}
     value: {fileID: 500273227}
   - key: {fileID: -5377474322574510144, guid: 1abb5f7972ec63b4483fb2c57827972f, type: 2}
+    value: {fileID: 1450471224}
+  - key: {fileID: 9017978805200984306, guid: 313e49ead717e764b8383abf1b234bc4, type: 2}
+    value: {fileID: 1288490029}
+  - key: {fileID: -4478330902518913618, guid: 313e49ead717e764b8383abf1b234bc4, type: 2}
+    value: {fileID: 500273227}
+  - key: {fileID: -1930413827688454593, guid: 313e49ead717e764b8383abf1b234bc4, type: 2}
+    value: {fileID: 1288490023}
+  - key: {fileID: -5377474322574510144, guid: 313e49ead717e764b8383abf1b234bc4, type: 2}
     value: {fileID: 1450471224}
   m_ExposedReferences:
     m_References: []
@@ -14452,7 +14460,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572889235}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 970abad952dacfd47a58fcf5abc818af, type: 3}
   m_Name: 
@@ -18802,6 +18810,7 @@ GameObject:
   - component: {fileID: 2052154210}
   - component: {fileID: 2052154212}
   - component: {fileID: 2052154211}
+  - component: {fileID: 2052154213}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -18918,6 +18927,28 @@ MonoBehaviour:
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
   FollowOffset: {x: 0, y: 2.6, z: -10}
+--- !u!95 &2052154213
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052154207}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2053260628
 GameObject:
   m_ObjectHideFlags: 0
