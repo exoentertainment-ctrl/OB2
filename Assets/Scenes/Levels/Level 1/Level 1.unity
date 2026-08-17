@@ -3248,6 +3248,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5790112306717390598, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6221062982489327788, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 80.11421
@@ -15338,6 +15342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnableObject
   targetObjects:
   - {fileID: 1994945127}
+  - {fileID: 392861295}
+  - {fileID: 1758638987}
 --- !u!1 &1455490384
 GameObject:
   m_ObjectHideFlags: 0

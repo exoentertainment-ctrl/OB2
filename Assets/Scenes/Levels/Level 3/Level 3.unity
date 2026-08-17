@@ -13979,6 +13979,7 @@ MonoBehaviour:
   targetObjects:
   - {fileID: 1994945127}
   - {fileID: 1758638987}
+  - {fileID: 392861295}
 --- !u!1 &1455490384
 GameObject:
   m_ObjectHideFlags: 0
@@ -17689,11 +17690,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   spawnWavesSO:
-  - {fileID: 11400000, guid: 14385ce2a496ff4499d8aac85b8dc0e2, type: 2}
-  - {fileID: 11400000, guid: 3bbe40cddeee34f479c9f5536397d50b, type: 2}
-  - {fileID: 11400000, guid: 22056443d7e20424f8f06163ab8e3c20, type: 2}
-  - {fileID: 11400000, guid: 85dbfb65321cea94fafc8b3987917801, type: 2}
-  - {fileID: 11400000, guid: 8fe7c63bf6ddf7842b4bfb8066a35298, type: 2}
+  - {fileID: 11400000, guid: e76a98e582df29d47a0d8cff329288ca, type: 2}
+  - {fileID: 11400000, guid: b005d2d223715e5479567568034a6fdf, type: 2}
+  - {fileID: 11400000, guid: 520a00f292fac0a4bbb8e313c79d4bbc, type: 2}
+  - {fileID: 11400000, guid: 458f4e3c0a6fe16429a9b8f167364ad3, type: 2}
+  - {fileID: 11400000, guid: 838ffac71df4a874993315421981a117, type: 2}
 --- !u!95 &1920211760
 Animator:
   serializedVersion: 7

@@ -17,6 +17,7 @@ MonoBehaviour:
   mintimeBetweenSpawns: 1
   maxtimeBetweenSpawns: 3
   enemyShipsPrefabs:
+  - {fileID: 1152354105411914, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
+  - {fileID: 2907779220397837066, guid: ed96f89d234c7a04ca399c1494925f80, type: 3}
+  - {fileID: 3060088426372616897, guid: 3c28799b7a44c5a4cb733e5c824b1f7f, type: 3}
   - {fileID: 3937816971316668994, guid: 089e0df002f7ba844b34498c457656bd, type: 3}
-  - {fileID: 1152354105411914, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
-  - {fileID: 1152354105411914, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}

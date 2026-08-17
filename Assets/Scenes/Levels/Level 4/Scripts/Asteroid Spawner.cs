@@ -29,10 +29,10 @@ public class AsteroidSpawner : MonoBehaviour
 
     void SpawnAsteroids()
     {
-        Vector3 asteroidPosition = new Vector3();
-        
         if (spawnedAsteroids.Count < numAsteroids)
         {
+            Vector3 asteroidPosition = new Vector3();
+            
             spawnedAsteroids.Add(Instantiate(asteroidPrefabs[Random.Range(0, asteroidPrefabs.Length)]));
             spawnedAsteroids[spawnedAsteroids.Count - 1].transform.parent = transform;
 
@@ -54,12 +54,8 @@ public class AsteroidSpawner : MonoBehaviour
         {
             if (spawnedAsteroid != asteroid)
             {
-                if (Vector3.Distance(spawnedAsteroid.transform.position, asteroid.transform.position) <
-                    distBetweenAsteroids)
-                {
-                    Debug.Log("asteroid is too close to: " + asteroid.name);
+                if (Vector3.Distance(spawnedAsteroid.transform.position, asteroid.transform.position) < distBetweenAsteroids)
                     return false;
-                }
             }
         }
         

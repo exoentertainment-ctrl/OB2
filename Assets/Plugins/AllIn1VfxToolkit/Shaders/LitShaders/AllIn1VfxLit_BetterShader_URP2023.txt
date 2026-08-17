@@ -16426,21 +16426,21 @@ Lighting Off
           float2 prevPosNDC = prevPosCS.xy * rcp(prevPosCS.w);
 
           float2 velocity;
-          #if defined(SUPPORTS_FOVEATED_RENDERING_NON_UNIFORM_RASTER)
-            UNITY_BRANCH if (_FOVEATED_RENDERING_NON_UNIFORM_RASTER)
-            {
+          //#if defined(SUPPORTS_FOVEATED_RENDERING_NON_UNIFORM_RASTER)
+            //UNITY_BRANCH if (_FOVEATED_RENDERING_NON_UNIFORM_RASTER)
+            //{
               // Convert velocity from NDC space (-1..1) to screen UV 0..1 space since FoveatedRendering remap needs that range.
-              float2 posUV = RemapFoveatedRenderingResolve(posNDC * 0.5 + 0.5);
-              float2 prevPosUV = RemapFoveatedRenderingPrevFrameLinearToNonUniform(prevPosNDC * 0.5 + 0.5);
+              //float2 posUV = RemapFoveatedRenderingResolve(posNDC * 0.5 + 0.5);
+              //float2 prevPosUV = RemapFoveatedRenderingPrevFrameLinearToNonUniform(prevPosNDC * 0.5 + 0.5);
 
               // Calculate forward velocity
-              velocity = (posUV - prevPosUV);
-              #if UNITY_UV_STARTS_AT_TOP
-                velocity.y = -velocity.y;
-              #endif
-            }
-            else
-          #endif
+              //velocity = (posUV - prevPosUV);
+              //#if UNITY_UV_STARTS_AT_TOP
+                //velocity.y = -velocity.y;
+              //#endif
+            //}
+            //else
+          //#endif
             {
               // Calculate forward velocity
               velocity = (posNDC.xy - prevPosNDC.xy);
