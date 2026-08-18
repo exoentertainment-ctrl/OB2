@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AsteroidHealth : MonoBehaviour, IHealth
 {
@@ -7,14 +9,13 @@ public class AsteroidHealth : MonoBehaviour, IHealth
     [SerializeField] GameObject debrisPrefab;
     [SerializeField] AudioClipSO destroySFX;
     [SerializeField] private float maxHealth;
-    [SerializeField] private int pointValue;
 
     #endregion
     
     private float currentHealth;
     private bool isHit;
     private bool isDead;
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,10 +26,9 @@ public class AsteroidHealth : MonoBehaviour, IHealth
     {
         isHit = false;
     }
-    
+
     public void TakeDamage(float damage)
     {
-
         if(!isHit)
         {
             isHit = true;
@@ -36,9 +36,6 @@ public class AsteroidHealth : MonoBehaviour, IHealth
             
             if (currentHealth <= 0 && !isDead)
             {
-                if(ResourceManager.instance != null && pointValue != 0)
-                    ResourceManager.instance.IncreaseCredits(pointValue);
-                
                 isDead = true;
                 SpawnDebris();
             }
@@ -53,7 +50,7 @@ public class AsteroidHealth : MonoBehaviour, IHealth
         
         Instantiate(debrisPrefab, transform.position, transform.rotation);
         Destroy(gameObject);
-    }   
+    }
     
     public float GetHealth()
     {

@@ -17578,7 +17578,7 @@ MonoBehaviour:
   decreasedCreditColor:
     serializedVersion: 2
     rgba: 4278190335
-  currentCredits: 100
+  currentCredits: 250
 --- !u!1 &1993004819
 GameObject:
   m_ObjectHideFlags: 0

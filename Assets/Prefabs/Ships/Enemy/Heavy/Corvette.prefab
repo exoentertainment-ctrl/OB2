@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &801111262648950447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7480505229441041033}
+  m_Layer: 7
+  m_Name: Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7480505229441041033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801111262648950447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6870648455386860913}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2137272448207950285
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +411,8 @@ Transform:
   m_LocalPosition: {x: 20.69, y: -0, z: 25.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6021382849452056117}
   m_Father: {fileID: 2793215636977571772}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6027949808555782789
@@ -396,7 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseTurret
   requireLOS: 1
-  raycastOrigin: {fileID: 0}
+  raycastOrigin: {fileID: 6021382849452056117}
   turretSO: {fileID: 11400000, guid: 84010eb7ee5471c408495b245e25c2cb, type: 2}
   targetResetInterval: 0
   showGizmos: 0
@@ -413,11 +445,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TurretAttack
   requireLOS: 1
-  raycastOrigin: {fileID: 0}
+  raycastOrigin: {fileID: 6021382849452056117}
   turretSO: {fileID: 11400000, guid: 84010eb7ee5471c408495b245e25c2cb, type: 2}
   weaponType: 0
   spawnPoints:
-  - {fileID: 0}
+  - {fileID: 6021382849452056117}
   fireFeedbacks: {fileID: 0}
   showGizmos: 0
 --- !u!114 &7252252980935767650
@@ -647,7 +679,8 @@ Transform:
   m_LocalPosition: {x: -20.69, y: -0, z: 25.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7480505229441041033}
   m_Father: {fileID: 2793215636977571772}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3075502303439504149
@@ -663,7 +696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseTurret
   requireLOS: 1
-  raycastOrigin: {fileID: 0}
+  raycastOrigin: {fileID: 7480505229441041033}
   turretSO: {fileID: 11400000, guid: 84010eb7ee5471c408495b245e25c2cb, type: 2}
   targetResetInterval: 0
   showGizmos: 0
@@ -680,11 +713,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TurretAttack
   requireLOS: 1
-  raycastOrigin: {fileID: 0}
+  raycastOrigin: {fileID: 7480505229441041033}
   turretSO: {fileID: 11400000, guid: 84010eb7ee5471c408495b245e25c2cb, type: 2}
   weaponType: 0
   spawnPoints:
-  - {fileID: 0}
+  - {fileID: 7480505229441041033}
   fireFeedbacks: {fileID: 0}
   showGizmos: 0
 --- !u!114 &6934203138603199226
@@ -702,6 +735,37 @@ MonoBehaviour:
   objectToPool: {fileID: 187606, guid: 094ebf3db466b864395f1d1c2cc1a625, type: 3}
   amountToPool: 10
   pooledObjects: []
+--- !u!1 &9079283445537578504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6021382849452056117}
+  m_Layer: 7
+  m_Name: Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6021382849452056117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079283445537578504}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2849414498926601369}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &424590394157608801
 PrefabInstance:
   m_ObjectHideFlags: 0
