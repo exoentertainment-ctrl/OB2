@@ -3016,7 +3016,7 @@ PlayableDirector:
   m_GameObject: {fileID: 189570517}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: c6c723ac794aec74da191d7929181842, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 166db391ed745b244884952fc46bac88, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 2
@@ -3046,6 +3046,14 @@ PlayableDirector:
     value: {fileID: 1450471224}
   - key: {fileID: 5215502047993974128, guid: c6c723ac794aec74da191d7929181842, type: 2}
     value: {fileID: 1288490029}
+  - key: {fileID: -5377474322574510144, guid: 166db391ed745b244884952fc46bac88, type: 2}
+    value: {fileID: 1450471224}
+  - key: {fileID: 5215502047993974128, guid: 166db391ed745b244884952fc46bac88, type: 2}
+    value: {fileID: 1288490029}
+  - key: {fileID: -1930413827688454593, guid: 166db391ed745b244884952fc46bac88, type: 2}
+    value: {fileID: 1288490023}
+  - key: {fileID: -4478330902518913618, guid: 166db391ed745b244884952fc46bac88, type: 2}
+    value: {fileID: 500273227}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &208146854
@@ -4864,7 +4872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &392861296
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6087,7 +6095,7 @@ RectTransform:
   m_Father: {fileID: 1591472523}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -1.2171936, y: 0}
   m_SizeDelta: {x: 6.3884, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6783,10 +6791,10 @@ RectTransform:
   - {fileID: 69309504}
   m_Father: {fileID: 66635739}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73.5, y: -164}
-  m_SizeDelta: {x: 147, y: 32}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &736231301
 MonoBehaviour:
@@ -10399,10 +10407,10 @@ RectTransform:
   - {fileID: 601678344}
   m_Father: {fileID: 66635739}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73.5, y: -16}
-  m_SizeDelta: {x: 147, y: 32}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050665629
 MonoBehaviour:
@@ -10888,7 +10896,7 @@ RectTransform:
   m_Father: {fileID: 374942581}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -1.2171936, y: 0}
   m_SizeDelta: {x: 6.3884, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10965,10 +10973,10 @@ RectTransform:
   - {fileID: 2096596088}
   m_Father: {fileID: 66635739}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73.5, y: -90}
-  m_SizeDelta: {x: 147, y: 32}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087091391
 MonoBehaviour:
@@ -13177,10 +13185,10 @@ RectTransform:
   - {fileID: 1194241119}
   m_Father: {fileID: 66635739}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73.5, y: -127}
-  m_SizeDelta: {x: 147, y: 32}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326923280
 MonoBehaviour:
@@ -13681,6 +13689,76 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389892338}
   m_CullTransparentMesh: 1
+--- !u!1 &1390044918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1390044919}
+  - component: {fileID: 1390044921}
+  - component: {fileID: 1390044920}
+  m_Layer: 0
+  m_Name: Comet Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1390044919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390044918}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 167.3, y: 127.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1390044920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390044918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71febb261b27274438019a3d3305b080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CometSpawner
+  cometPrefab: {fileID: 367712256352521079, guid: ae18acd4bc0386345922618dbdcf8bf4, type: 3}
+  minSpawnTime: 2
+  maxSpawnTime: 5
+  spawnPoint: {fileID: 1390044919}
+--- !u!65 &1390044921
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390044918}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 250, y: 0, z: 250}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1391784643
 GameObject:
   m_ObjectHideFlags: 0
@@ -14221,9 +14299,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: We've established an outpost on this planet to feed resistance machinery.
-    We managed to throw some of the rocks we've dug up into orbit to act as a minefield.
-    Be careful, though, those rocks can damage your ships as well!
+  m_text: We may have been too aggressive with the ejection of our rocks. Some have
+    escaped the planet's gravity and are moving erratically around orbit. We're tracking
+    them and can give you some advance notice of their paths.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 23b7829c53a24ea40b81f78f585013a8, type: 2}
   m_sharedMaterial: {fileID: 7903381803902352986, guid: 23b7829c53a24ea40b81f78f585013a8, type: 2}
@@ -14381,12 +14459,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531080195}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoTurnoff
-  duration: 2
+  duration: 3
 --- !u!1 &1562220283
 GameObject:
   m_ObjectHideFlags: 0
@@ -14945,10 +15023,10 @@ RectTransform:
   - {fileID: 1391784644}
   m_Father: {fileID: 66635739}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73.5, y: -53}
-  m_SizeDelta: {x: 147, y: 32}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674057271
 MonoBehaviour:
@@ -16163,7 +16241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1758638988
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18540,7 +18618,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1994945128
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19384,3 +19462,4 @@ SceneRoots:
   - {fileID: 1811224819}
   - {fileID: 1124765330}
   - {fileID: 1758361856}
+  - {fileID: 1390044919}
