@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TurretSO
   projectileSO: {fileID: 11400000, guid: eca1cacf2194cf24281625382c6c3a5d, type: 2}
   dischargePrefab: {fileID: 100002, guid: e7d35fac8bfa5aa4fb431c1d15382681, type: 3}
-  fireSFX: {fileID: 11400000, guid: eb080882f4d4c7d44966c77df93ebe3d, type: 2}
+  fireSFX:
+  - {fileID: 11400000, guid: eb080882f4d4c7d44966c77df93ebe3d, type: 2}
+  - {fileID: 11400000, guid: 70ba943ae94fc21448c32c303ecd46c5, type: 2}
+  - {fileID: 11400000, guid: 97369bbbda1538f41b32ecb356d52303, type: 2}
   engageRange: 60
   minEngageRange: 10
   fireRate: 2

@@ -12,7 +12,6 @@ public class LightFlash : MonoBehaviour
     void Awake()
     {
         explosionLight = GetComponent<Light>();
-        Debug.Log(explosionLight.intensity);
         explosionLight.intensity = 0f;
         explosionLight.range = 0f;
         StartCoroutine(FlashRoutine());

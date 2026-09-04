@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TurretSO
   projectileSO: {fileID: 11400000, guid: e46b763a49e374548857c5f536be8898, type: 2}
   dischargePrefab: {fileID: 0}
-  fireSFX: {fileID: 11400000, guid: fd1ff0d1027bf434bb1088a98ee95877, type: 2}
+  fireSFX:
+  - {fileID: 11400000, guid: 4d6a2c616e7a85945b5758b62e1badae, type: 2}
+  - {fileID: 11400000, guid: 04e64795193c6a04ca3791ed2971a84e, type: 2}
+  - {fileID: 11400000, guid: 0aeea4af057862a428bce7022b3cbb39, type: 2}
   engageRange: 70
   minEngageRange: 30
   fireRate: 1.5
@@ -22,6 +25,9 @@ MonoBehaviour:
   targetLayers:
     serializedVersion: 2
     m_Bits: 67648
+  asteroidLayer:
+    serializedVersion: 2
+    m_Bits: 0
   targetPredictionDelay: 1
   TrackingType: 0
   HeadingTrackingSpeed: 50
