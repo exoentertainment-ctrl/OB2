@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.Collections;
 using MoreMountains.Feedbacks;
+using Random = UnityEngine.Random;
 
 public class TurretAttack : MonoBehaviour
 {
@@ -112,7 +113,7 @@ public class TurretAttack : MonoBehaviour
 
             if(turretSO.fireSFX != null)
                 if(AudioManager.instance != null)
-                    AudioManager.instance.PlaySound(turretSO.fireSFX, transform.position);
+                    AudioManager.instance.PlaySound(turretSO.fireSFX[Random.Range(0, turretSO.fireSFX.Length)], transform.position);
             
             fireFeedbacks?.PlayFeedbacks();
             

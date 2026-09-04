@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78626bb2c8bd04c44882d1f9b5e7a9b4, type: 3}
-  m_Name: Basic Ballistic SFX
+  m_Name: Basic Ballistic SFX 1
   m_EditorClassIdentifier: Assembly-CSharp::AudioClipSO
   audioType: 0
   audioMixer: {fileID: 4797775633348784603, guid: 0cab25b4b83cc244181499ba9da29ad1, type: 2}

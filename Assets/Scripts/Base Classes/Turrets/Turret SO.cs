@@ -7,7 +7,7 @@ public class TurretSO : ScriptableObject
 
     public ProjectileSO projectileSO;
     public GameObject dischargePrefab;
-    public AudioClipSO fireSFX;
+    public AudioClipSO[] fireSFX;
     public int engageRange;
     public int minEngageRange;
     public float fireRate;

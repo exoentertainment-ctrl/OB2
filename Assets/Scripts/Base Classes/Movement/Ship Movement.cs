@@ -8,6 +8,7 @@ public class ShipMovement : MonoBehaviour
 {
     #region Serialized Fields
 
+    [SerializeField] private bool isPlayer;
     [SerializeField] protected BaseShipSO shipSO;
     [SerializeField] private GameObject engines;
 
@@ -194,7 +195,7 @@ public class ShipMovement : MonoBehaviour
 
     void SearchForTarget()
     {
-        if (GameObject.FindGameObjectsWithTag("Priority Target").Length > 0)
+        if (GameObject.FindGameObjectsWithTag("Priority Target").Length > 0 && !isPlayer)
         {
             GameObject[] targets = GameObject.FindGameObjectsWithTag("Priority Target");
 

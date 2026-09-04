@@ -14,9 +14,9 @@ public class BehaviorToggleHover : MonoBehaviour, IPointerEnterHandler, IPointer
         if (ShipManager.instance.GetSelectedShip() != null)
         {
             if (ShipManager.instance.GetSelectedShip().GetComponent<ShipMovement>().GetBehavior())
-                text.text = "Automatically find new target";
+                text.text = "Find new target";
             else
-                text.text = "Do not find new target";
+                text.text = "Don't find new target";
         }
     }
 

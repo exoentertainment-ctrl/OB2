@@ -3236,9 +3236,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1172202627022678591, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4072802681630298199, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318361142511710598, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540608161020402053, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5116001624661358528, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
       propertyPath: m_Enabled
@@ -3296,6 +3308,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8458469633689545036, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8463471691851133948, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
       propertyPath: m_Name
       value: Basic Ballistic Platform
@@ -3311,9 +3327,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4540608161020402053, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1092140015}
+    - targetCorrespondingSourceObject: {fileID: 4540608161020402053, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1092140021}
     - targetCorrespondingSourceObject: {fileID: 8458469633689545036, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 359743578}
+    - targetCorrespondingSourceObject: {fileID: 8458469633689545036, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 359743584}
   m_SourcePrefab: {fileID: 100100000, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
 --- !u!1 &187351870
 GameObject:
@@ -3460,7 +3482,7 @@ PlayableDirector:
   m_GameObject: {fileID: 189570517}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 383e3f963d40e5d40b65d39a01d6b496, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -3485,11 +3507,35 @@ PlayableDirector:
   - key: {fileID: 3040484295785411374, guid: 383e3f963d40e5d40b65d39a01d6b496, type: 2}
     value: {fileID: 359743578}
   - key: {fileID: -5596667096520839245, guid: 383e3f963d40e5d40b65d39a01d6b496, type: 2}
-    value: {fileID: 1450471224}
+    value: {fileID: 0}
   - key: {fileID: 198519172198627354, guid: 383e3f963d40e5d40b65d39a01d6b496, type: 2}
     value: {fileID: 1063345314}
   - key: {fileID: 1002629065724831319, guid: 383e3f963d40e5d40b65d39a01d6b496, type: 2}
     value: {fileID: 620568115}
+  - key: {fileID: -737174548018206518, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1288490023}
+  - key: {fileID: -5756572523687061297, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1288490029}
+  - key: {fileID: 7498173780950039985, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 500273227}
+  - key: {fileID: 8469975154067586475, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 212946330}
+  - key: {fileID: 7307958085579519055, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1248133659}
+  - key: {fileID: -8569258258185802461, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1060034098}
+  - key: {fileID: -3339035933616984001, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1202695199}
+  - key: {fileID: 7752215606575083646, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 620568115}
+  - key: {fileID: -7219261661074859523, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1092140015}
+  - key: {fileID: 3907461663861086271, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1450471226}
+  - key: {fileID: -5747156030710550669, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 1092140021}
+  - key: {fileID: -3460881720438305494, guid: 11e05f5f1463df44792cc47f221d7cd2, type: 2}
+    value: {fileID: 359743584}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &208146854
@@ -5021,7 +5067,7 @@ Transform:
   m_GameObject: {fileID: 351960556}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 79.5, y: 10, z: -83.9}
+  m_LocalPosition: {x: 80.74192, y: 5.5000105, z: -85.10522}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5181,6 +5227,93 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &359743580 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 909250068264044297, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+  m_PrefabInstance: {fileID: 183970224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359743572}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d5467b3c7df334c9947a080cb0d9e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BaseTurret
+--- !u!114 &359743581 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 45861872334556889, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+  m_PrefabInstance: {fileID: 183970224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359743572}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ef30d849724a84bad8711f688306eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurretRotation
+--- !u!114 &359743583 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8278880777898762398, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+  m_PrefabInstance: {fileID: 183970224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359743572}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e2e9900a53d7340a903a8cd1445d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurretAttack
+--- !u!114 &359743584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359743572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 55ef0d48396b11741a499cbc923f7191, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 359743581}
+          m_TargetAssemblyTypeName: TurretRotation, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 359743580}
+          m_TargetAssemblyTypeName: BaseTurret, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 359743583}
+          m_TargetAssemblyTypeName: TurretAttack, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!1 &374942580
 GameObject:
   m_ObjectHideFlags: 0
@@ -7765,6 +7898,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 466741860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &736231302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8883,7 +9028,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827955119}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -11158,6 +11303,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 466741860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1050665630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12028,6 +12185,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 466741860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1087091392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12289,6 +12458,93 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1092140017 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5116001624661358528, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+  m_PrefabInstance: {fileID: 183970224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092140009}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d5467b3c7df334c9947a080cb0d9e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BaseTurret
+--- !u!114 &1092140018 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5387168686897266192, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+  m_PrefabInstance: {fileID: 183970224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092140009}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11ef30d849724a84bad8711f688306eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurretRotation
+--- !u!114 &1092140020 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4072802681630298199, guid: 319bd9988c9d63444824dcf03c01e33e, type: 3}
+  m_PrefabInstance: {fileID: 183970224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092140009}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e2e9900a53d7340a903a8cd1445d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurretAttack
+--- !u!114 &1092140021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092140009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 55ef0d48396b11741a499cbc923f7191, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1092140018}
+          m_TargetAssemblyTypeName: TurretRotation, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1092140017}
+          m_TargetAssemblyTypeName: BaseTurret, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1092140020}
+          m_TargetAssemblyTypeName: TurretAttack, Assembly-CSharp
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!1 &1095514808
 GameObject:
   m_ObjectHideFlags: 0
@@ -12864,7 +13120,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 24.54, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142880094
@@ -12887,7 +13143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Automatically find new target
+  m_text: Don't find new target
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13820,7 +14076,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 189570518}
-  m_LocalEulerAnglesHint: {x: 0.06043674, y: 3.463399, z: 358.0012}
+  m_LocalEulerAnglesHint: {x: -0.000001156761, y: 0.0000000142432, z: 1.000003}
 --- !u!114 &1288490025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14041,6 +14297,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
         m_MethodName: SpawnEnemy
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 466741860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15069,7 +15337,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 164.2, y: 6.7}
-  m_SizeDelta: {x: 250, y: 25}
+  m_SizeDelta: {x: 201.86, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392974352
 MonoBehaviour:
@@ -15203,8 +15471,8 @@ GameObject:
   - component: {fileID: 1450471222}
   - component: {fileID: 1450471221}
   - component: {fileID: 1450471220}
-  - component: {fileID: 1450471224}
   - component: {fileID: 1450471225}
+  - component: {fileID: 1450471226}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -15306,7 +15574,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!95 &1450471224
+--- !u!114 &1450471225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450471219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c0fea56c2681543811d7dab20384da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnableObject
+  targetObjects:
+  - {fileID: 1994945127}
+  - {fileID: 392861295}
+  - {fileID: 1758638987}
+--- !u!95 &1450471226
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -15328,22 +15612,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1450471225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450471219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c0fea56c2681543811d7dab20384da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnableObject
-  targetObjects:
-  - {fileID: 1994945127}
-  - {fileID: 392861295}
-  - {fileID: 1758638987}
 --- !u!1 &1455490384
 GameObject:
   m_ObjectHideFlags: 0
@@ -15620,7 +15888,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521071587}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -16515,7 +16783,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654531624}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -16944,6 +17212,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
         m_MethodName: SpawnEnemy
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 466741860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -21386,7 +21666,7 @@ Transform:
   m_GameObject: {fileID: 2052154207}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 79.5, y: 10, z: -83.9}
+  m_LocalPosition: {x: 80.74192, y: 5.5000105, z: -85.10522}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21485,7 +21765,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 2.6, z: -10}
+  FollowOffset: {x: 0, y: 3.5, z: -6}
 --- !u!1 &2053260628
 GameObject:
   m_ObjectHideFlags: 0
