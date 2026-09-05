@@ -202,6 +202,7 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  LogMissingTargets: 1
   ForceTimescaleMode: 0
   ForcedTimescaleMode: 1
   DurationMultiplier: 1
@@ -286,11 +287,14 @@ MonoBehaviour:
   InScriptDrivenPause: 0
   FeedbacksList:
   - rid: 8603545762603467345
+  PlayMode: 0
+  SequentialDelay: 0
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   RestoreInitialValuesOnDisable: 0
   StopFeedbacksOnDisable: 0
   PlayCount: 0
+  InPreviewMode: 0
   MMF_ChannelMode: 0
   MMF_Channel: 0
   MMF_ChannelDefinition: {fileID: 0}
@@ -426,6 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2c55ad13448d114db5c43cb4255d1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Kamikaze
+  isPlayer: 0
   shipSO: {fileID: 11400000, guid: 4e6d4e20d86cba54db107aa7011e9a5e, type: 2}
   engines: {fileID: 133123815588438752}
   radarStepAmount: 10

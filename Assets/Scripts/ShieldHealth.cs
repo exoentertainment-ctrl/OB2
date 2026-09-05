@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using DamageNumbersPro;
 
@@ -26,6 +27,7 @@ public class ShieldHealth : BaseShield
     private bool isLowShield;
     private bool isSelected;
     private bool shieldDownSFX;
+    private bool isShieldUp;
     
     #endregion
     
@@ -70,6 +72,9 @@ public class ShieldHealth : BaseShield
             }
             else
             {
+                isShieldUp = false;
+                StartCoroutine(ShieldDownRoutine());
+                
                 if (!shieldDownSFX)
                 {
                     transform.root.TryGetComponent<ShipController>(out ShipController controller);
@@ -95,17 +100,20 @@ public class ShieldHealth : BaseShield
 
     void Recharge()
     {
-        if (currentShield < shipSO.maxShield)
+        if (isShieldUp)
         {
-            currentShield += shipSO.maxShield * (shipSO.shieldRechargeRate * Time.deltaTime);
-        }
+            if (currentShield < shipSO.maxShield)
+            {
+                currentShield += shipSO.maxShield * (shipSO.shieldRechargeRate * Time.deltaTime);
+            }
 
-        if (currentShield > shipSO.maxShield * shipSO.lowShieldPercentage && isLowShield)
-        {
-            shieldDownSFX = false;
-            isLowShield = false;
-            lowShield.SetActive(false);
-            mainShield.SetActive(true);
+            if (currentShield > shipSO.maxShield * shipSO.lowShieldPercentage && isLowShield)
+            {
+                shieldDownSFX = false;
+                isLowShield = false;
+                lowShield.SetActive(false);
+                mainShield.SetActive(true);
+            }
         }
     }
     
@@ -123,5 +131,12 @@ public class ShieldHealth : BaseShield
     {
         shieldUpgrade += shipSO.maxShield * shipSO.upgradeAmount;
         currentShield = shipSO.maxHealth + shieldUpgrade;
+    }
+
+    IEnumerator ShieldDownRoutine()
+    {
+        yield return new WaitForSeconds(shipSO.shieldDownDuration);
+        
+        isShieldUp = true;
     }
 }

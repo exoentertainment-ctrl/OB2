@@ -7,6 +7,7 @@ public class BaseShipSO : BaseEntitySO
     #region Health Variables
     
     public float shieldRechargeRate;
+    public int shieldDownDuration;
     
     #endregion
 

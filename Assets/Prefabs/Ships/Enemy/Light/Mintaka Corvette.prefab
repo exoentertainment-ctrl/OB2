@@ -370,8 +370,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ShipMovement, Assembly-CSharp
+      - m_Target: {fileID: 4112237302905327958}
+        m_TargetAssemblyTypeName: OrbitAround, Assembly-CSharp
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -405,6 +405,7 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  LogMissingTargets: 1
   ForceTimescaleMode: 0
   ForcedTimescaleMode: 1
   DurationMultiplier: 1
@@ -489,11 +490,14 @@ MonoBehaviour:
   InScriptDrivenPause: 0
   FeedbacksList:
   - rid: 8603545762603467345
+  PlayMode: 0
+  SequentialDelay: 0
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   RestoreInitialValuesOnDisable: 0
   StopFeedbacksOnDisable: 0
   PlayCount: 0
+  InPreviewMode: 0
   MMF_ChannelMode: 0
   MMF_Channel: 0
   MMF_ChannelDefinition: {fileID: 0}
@@ -629,6 +633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62dcd61b303bbf9449961d8b6b2c6c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OrbitAround
+  isPlayer: 0
   shipSO: {fileID: 11400000, guid: cb768c1536174d24e883aca1d4ca49e6, type: 2}
   engines: {fileID: 4979733001226118689}
   radarStepAmount: 15

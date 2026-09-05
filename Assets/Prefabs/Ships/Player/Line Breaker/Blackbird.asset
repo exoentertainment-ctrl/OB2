@@ -20,6 +20,7 @@ MonoBehaviour:
   numExplosions: 3
   explosionFrequency: 0.75
   shieldRechargeRate: 0.01
+  shieldDownDuration: 3
   moveSpeed: 1.5
   turnSpeed: 2
   lookAheadDistance: 10

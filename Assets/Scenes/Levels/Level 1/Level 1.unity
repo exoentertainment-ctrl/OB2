@@ -3722,7 +3722,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212946330}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -5534,12 +5534,20 @@ PrefabInstance:
       value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 369740745609284784, guid: 7296435136a32224c807ada05c833788, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 369740745609284784, guid: 7296435136a32224c807ada05c833788, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 369740745609284784, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 427
+      value: 153.2
       objectReference: {fileID: 0}
     - target: {fileID: 369740745609284784, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 115
+      value: 87.1
       objectReference: {fileID: 0}
     - target: {fileID: 369740745609284785, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_Name
@@ -5599,11 +5607,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 369740746299747160, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 800
+      value: 246
       objectReference: {fileID: 0}
     - target: {fileID: 369740746299747160, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 500
+      value: 275.2
       objectReference: {fileID: 0}
     - target: {fileID: 369740746299747160, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7734,7 +7742,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620568115}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -8058,7 +8066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &743682773
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8076,7 +8084,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -350}
+  m_AnchoredPosition: {x: 100, y: -250}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743682774
@@ -9370,7 +9378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &830651424
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10101,8 +10109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -51.8}
-  m_SizeDelta: {x: 763.7, y: 485.5}
+  m_AnchoredPosition: {x: 0, y: -162.6}
+  m_SizeDelta: {x: 206.7, y: 485.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &892896313
 MonoBehaviour:
@@ -11493,7 +11501,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060034098}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -12378,7 +12386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 369740746299747160, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -376.31
+      value: -265.6
       objectReference: {fileID: 0}
     - target: {fileID: 369740746299747160, guid: 7296435136a32224c807ada05c833788, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13438,7 +13446,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202695199}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -14783,7 +14791,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377640196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -14796,7 +14804,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377640196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb821b3a89e0240aa91c53955ccade89, type: 3}
   m_Name: 
@@ -14843,20 +14851,20 @@ MonoBehaviour:
   typewriterStartsAutomatically: 0
   animationLoop: 0
   timeScale: 1
-  _text: 
+  _text: We refuse! We've suffered long enough under your rule. We wanted to coexist,
+    but we see that's not an option.
   useDynamicScaling: 1
   referenceFontSize: 10
   isResettingTimeOnNewText: 1
   useDefaultDatabases: 1
-  databaseBehaviors: {fileID: 0}
-  databaseAppearances: {fileID: 0}
+  databaseBehaviors: {fileID: 11400000, guid: b6a26a3629f32864e8f2d0176817574b, type: 2}
+  databaseAppearances: {fileID: 11400000, guid: 853109f0d33137b48a78f08c1a0d3d80, type: 2}
   useDefaultStyleSheet: 1
   styleSheet: {fileID: 0}
-  databaseActions: {fileID: 0}
+  databaseActions: {fileID: 11400000, guid: df05e044d92639d4a85d185857f6f48c, type: 2}
   defaultAppearancesTags:
   - size
-  defaultDisappearancesTags:
-  - fade
+  defaultDisappearancesTags: []
   defaultBehaviorsTags: []
   defaultTagsMode: 0
 --- !u!114 &1377640201
@@ -16212,7 +16220,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531080195}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb821b3a89e0240aa91c53955ccade89, type: 3}
   m_Name: 
@@ -16272,8 +16280,7 @@ MonoBehaviour:
   databaseActions: {fileID: 11400000, guid: df05e044d92639d4a85d185857f6f48c, type: 2}
   defaultAppearancesTags:
   - size
-  defaultDisappearancesTags:
-  - fade
+  defaultDisappearancesTags: []
   defaultBehaviorsTags: []
   defaultTagsMode: 0
 --- !u!114 &1531080202
@@ -17741,7 +17748,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691181901}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -17754,7 +17761,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691181901}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb821b3a89e0240aa91c53955ccade89, type: 3}
   m_Name: 
@@ -17801,20 +17808,21 @@ MonoBehaviour:
   typewriterStartsAutomatically: 0
   animationLoop: 0
   timeScale: 1
-  _text: 
+  _text: A delegation from the homeworld should be here soon to finalize the terms
+    of our independence. This is a momentous day, Commander. Let's hope nothing goes
+    wrong.
   useDynamicScaling: 1
   referenceFontSize: 10
   isResettingTimeOnNewText: 1
   useDefaultDatabases: 1
-  databaseBehaviors: {fileID: 0}
-  databaseAppearances: {fileID: 0}
+  databaseBehaviors: {fileID: 11400000, guid: b6a26a3629f32864e8f2d0176817574b, type: 2}
+  databaseAppearances: {fileID: 11400000, guid: 853109f0d33137b48a78f08c1a0d3d80, type: 2}
   useDefaultStyleSheet: 1
   styleSheet: {fileID: 0}
-  databaseActions: {fileID: 0}
+  databaseActions: {fileID: 11400000, guid: df05e044d92639d4a85d185857f6f48c, type: 2}
   defaultAppearancesTags:
   - size
-  defaultDisappearancesTags:
-  - fade
+  defaultDisappearancesTags: []
   defaultBehaviorsTags: []
   defaultTagsMode: 0
 --- !u!114 &1691181906
@@ -17966,7 +17974,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696369671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -17979,7 +17987,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696369671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb821b3a89e0240aa91c53955ccade89, type: 3}
   m_Name: 
@@ -18026,20 +18034,20 @@ MonoBehaviour:
   typewriterStartsAutomatically: 0
   animationLoop: 0
   timeScale: 1
-  _text: 
+  _text: The die has been cast, Commander. Ready our defenses and choose your ships.
+    They're coming.
   useDynamicScaling: 1
   referenceFontSize: 10
   isResettingTimeOnNewText: 1
   useDefaultDatabases: 1
-  databaseBehaviors: {fileID: 0}
-  databaseAppearances: {fileID: 0}
+  databaseBehaviors: {fileID: 11400000, guid: b6a26a3629f32864e8f2d0176817574b, type: 2}
+  databaseAppearances: {fileID: 11400000, guid: 853109f0d33137b48a78f08c1a0d3d80, type: 2}
   useDefaultStyleSheet: 1
   styleSheet: {fileID: 0}
-  databaseActions: {fileID: 0}
+  databaseActions: {fileID: 11400000, guid: df05e044d92639d4a85d185857f6f48c, type: 2}
   defaultAppearancesTags:
   - size
-  defaultDisappearancesTags:
-  - fade
+  defaultDisappearancesTags: []
   defaultBehaviorsTags: []
   defaultTagsMode: 0
 --- !u!114 &1696369676
@@ -20369,7 +20377,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920914490}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b181fe996c50cf43afdeb0909c7e06f, type: 3}
   m_Name: 
@@ -20382,7 +20390,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920914490}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb821b3a89e0240aa91c53955ccade89, type: 3}
   m_Name: 
@@ -20429,20 +20437,20 @@ MonoBehaviour:
   typewriterStartsAutomatically: 0
   animationLoop: 0
   timeScale: 1
-  _text: 
+  _text: We will make this short. The homeworld rejects your claim of independence.
+    Surrender your leaders or face the consequences.
   useDynamicScaling: 1
   referenceFontSize: 10
   isResettingTimeOnNewText: 1
   useDefaultDatabases: 1
-  databaseBehaviors: {fileID: 0}
-  databaseAppearances: {fileID: 0}
+  databaseBehaviors: {fileID: 11400000, guid: b6a26a3629f32864e8f2d0176817574b, type: 2}
+  databaseAppearances: {fileID: 11400000, guid: 853109f0d33137b48a78f08c1a0d3d80, type: 2}
   useDefaultStyleSheet: 1
   styleSheet: {fileID: 0}
-  databaseActions: {fileID: 0}
+  databaseActions: {fileID: 11400000, guid: df05e044d92639d4a85d185857f6f48c, type: 2}
   defaultAppearancesTags:
   - size
-  defaultDisappearancesTags:
-  - fade
+  defaultDisappearancesTags: []
   defaultBehaviorsTags: []
   defaultTagsMode: 0
 --- !u!114 &1920914495
