@@ -20,7 +20,8 @@ MonoBehaviour:
   numExplosions: 1
   explosionFrequency: 0
   shieldRechargeRate: 0.01
-  moveSpeed: 3
+  shieldDownDuration: 0
+  moveSpeed: 4
   turnSpeed: 1
   lookAheadDistance: 10
   obstacleLayerMask:

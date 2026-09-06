@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87c1241e5b22dec479f6fb723ddce09b, type: 3}
   m_Name: Fomalhaut
   m_EditorClassIdentifier: Assembly-CSharp::BaseShipSO
-  maxHealth: 30
+  maxHealth: 50
   maxShield: 50
   lowShieldPercentage: 0.25
   upgradeAmount: 0.15

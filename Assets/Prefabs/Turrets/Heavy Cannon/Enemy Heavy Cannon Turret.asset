@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: daaa623cd6f4a084b9f4cedb3994c984, type: 2}
   engageRange: 80
   minEngageRange: 30
-  fireRate: 1.5
+  fireRate: 2.5
   barrelFireDelay: 0.25
   targetLayers:
     serializedVersion: 2

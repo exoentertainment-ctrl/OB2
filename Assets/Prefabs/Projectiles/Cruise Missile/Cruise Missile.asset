@@ -18,7 +18,7 @@ MonoBehaviour:
   maxHealth: 1
   moveSpeed: 1500
   lifetime: 10
-  damage: 2
+  damage: 1
   targetLayers:
     serializedVersion: 2
     m_Bits: 128

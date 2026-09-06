@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a7f818091535bf42a5de44f76b2e9b0, type: 3}
   m_Name: Light Missile Platform
   m_EditorClassIdentifier: Assembly-CSharp::PlatformScriptableObject
-  maxHealth: 30
-  maxShield: 30
+  maxHealth: 20
+  maxShield: 25
   lowShieldPercentage: 0.1
   upgradeAmount: 0
   explosionPrefab: {fileID: 1002090002221796, guid: 4bf4aac8b7619e94d93435156396e1f2, type: 3}
