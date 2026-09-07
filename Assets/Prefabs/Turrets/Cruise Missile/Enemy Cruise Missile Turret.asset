@@ -16,9 +16,9 @@ MonoBehaviour:
   dischargePrefab: {fileID: 0}
   fireSFX:
   - {fileID: 11400000, guid: 414b9d4fdf769cb429e22423cb387329, type: 2}
-  engageRange: 100
-  minEngageRange: 50
-  fireRate: 10
+  engageRange: 60
+  minEngageRange: 25
+  fireRate: 25
   barrelFireDelay: 0.2
   targetLayers:
     serializedVersion: 2

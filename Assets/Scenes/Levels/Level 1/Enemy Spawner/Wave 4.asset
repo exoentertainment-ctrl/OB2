@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e6afbdd16e6a84b978423570a41313, type: 3}
   m_Name: Wave 4
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawnerScriptableObject
-  timeToWaveStart: 15
+  timeToWaveStart: 10
   numSpawns: 20
-  mintimeBetweenSpawns: 1
-  maxtimeBetweenSpawns: 3
+  mintimeBetweenSpawns: 1.5
+  maxtimeBetweenSpawns: 2.5
   enemyShipsPrefabs:
   - {fileID: 798340532096885351, guid: 869e265ea11b8ed4e811f3e2f49819f5, type: 3}
   - {fileID: 3937816971316668994, guid: 089e0df002f7ba844b34498c457656bd, type: 3}

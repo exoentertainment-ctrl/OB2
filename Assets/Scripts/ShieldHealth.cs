@@ -27,7 +27,7 @@ public class ShieldHealth : BaseShield
     private bool isLowShield;
     private bool isSelected;
     private bool shieldDownSFX;
-    private bool isShieldUp;
+    private bool isShieldUp = true;
     
     #endregion
     
@@ -49,8 +49,9 @@ public class ShieldHealth : BaseShield
 
     public override void TakeDamage(float damage)
     {
-        if (!isHit)
+        if (!isHit && isShieldUp)
         {
+            Debug.Log("shield hit");
             isHit = true;
         
             currentShield -= damage;
@@ -104,7 +105,7 @@ public class ShieldHealth : BaseShield
         {
             if (currentShield < shipSO.maxShield)
             {
-                currentShield += shipSO.maxShield * (shipSO.shieldRechargeRate * Time.deltaTime);
+                currentShield += (shipSO.maxShield * shipSO.shieldRechargeRate) * Time.deltaTime;
             }
 
             if (currentShield > shipSO.maxShield * shipSO.lowShieldPercentage && isLowShield)

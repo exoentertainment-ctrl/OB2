@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87c1241e5b22dec479f6fb723ddce09b, type: 3}
-  m_Name: Fomalhaut
+  m_Name: TTE_Refinery
   m_EditorClassIdentifier: Assembly-CSharp::BaseShipSO
-  maxHealth: 50
-  maxShield: 50
-  lowShieldPercentage: 0.25
-  upgradeAmount: 0.15
+  maxHealth: 100
+  maxShield: 100
+  lowShieldPercentage: 0.1
+  upgradeAmount: 0.1
   explosionPrefab: {fileID: 1002090002221796, guid: 4bf4aac8b7619e94d93435156396e1f2, type: 3}
   numExplosions: 3
   explosionFrequency: 0.75
   shieldRechargeRate: 0.01
-  shieldDownDuration: 1
-  moveSpeed: 3
+  shieldDownDuration: 2
+  moveSpeed: 2
   turnSpeed: 1
   lookAheadDistance: 10
   obstacleLayerMask:
     serializedVersion: 2
-    m_Bits: 4096
+    m_Bits: 135168
   targetLayerMask:
     serializedVersion: 2
     m_Bits: 128

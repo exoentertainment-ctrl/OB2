@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawnerScriptableObject
   timeToWaveStart: 30
   numSpawns: 15
-  mintimeBetweenSpawns: 1
-  maxtimeBetweenSpawns: 3
+  mintimeBetweenSpawns: 1.5
+  maxtimeBetweenSpawns: 2.5
   enemyShipsPrefabs:
   - {fileID: 3937816971316668994, guid: 089e0df002f7ba844b34498c457656bd, type: 3}
   - {fileID: 3834302980136966833, guid: 26d556069663e3b458bb709870357e55, type: 3}

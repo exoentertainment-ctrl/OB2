@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87c1241e5b22dec479f6fb723ddce09b, type: 3}
   m_Name: Heavy Frigate
   m_EditorClassIdentifier: Assembly-CSharp::BaseShipSO
-  maxHealth: 25
-  maxShield: 25
+  maxHealth: 15
+  maxShield: 15
   lowShieldPercentage: 0.25
   upgradeAmount: 0.1
   explosionPrefab: {fileID: 1002090002221796, guid: bc9d4ac2d4d006e4883c574b9463f2be, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e6afbdd16e6a84b978423570a41313, type: 3}
   m_Name: Wave 3
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawnerScriptableObject
-  timeToWaveStart: 10
+  timeToWaveStart: 15
   numSpawns: 20
   mintimeBetweenSpawns: 1
   maxtimeBetweenSpawns: 3

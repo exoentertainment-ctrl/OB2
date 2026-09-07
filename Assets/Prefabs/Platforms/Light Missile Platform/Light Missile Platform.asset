@@ -19,7 +19,7 @@ MonoBehaviour:
   explosionPrefab: {fileID: 1002090002221796, guid: 4bf4aac8b7619e94d93435156396e1f2, type: 3}
   numExplosions: 2
   explosionFrequency: 0.75
-  resourceCost: 150
+  resourceCost: 200
   platformPrefab: {fileID: 8463471691851133948, guid: f4de35e9442561e449a7800ecb94ca23, type: 3}
   platformDescription: This platform sports two turrets which fire light tracking
     missiles. These missiles do low damage but are the best way of dealing with fast
